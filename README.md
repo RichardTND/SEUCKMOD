@@ -66,4 +66,4 @@ and check for any errors
 5. Use a cruncher like Exomizer to crunch the assembled and built file. Jump address is $0800
 
 e.g.
-c:\exomizer/win32/exomizer.exe sfx $0800 seuckmod.prg -o [nameofgame].prg -x2
+c:\exomizer\win32\exomizer.exe sfx $0800 seuckmod.prg -o [nameofgame].prg -x2 -Di_entry=$37 -Di_during=$34
